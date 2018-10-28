@@ -25,7 +25,7 @@ int inserting(int arr[],int l)
         l++;
         break;
     case 3:
-        cout<<"Enter position of element in array:"<<endl;
+        cout<<"Enter position of element"<<endl;
         cin>>n;
         for(int i=l-1;i>=n;i--)
             arr[i+1]=arr[i];
@@ -39,7 +39,7 @@ int deleting(int arr[],int l)
 {
     int x,position;
     int choice;
-    cout<<"Enter 1 to delete a given element"<<endl;
+    cout<<"Enter 1 to delete a element"<<endl;
     cout<<"Enter 2 to delete a element at a given location"<<endl;
     cin>>choice;
     if(choice==1)
